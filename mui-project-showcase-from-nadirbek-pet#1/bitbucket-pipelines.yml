@@ -1,0 +1,13 @@
+image: atlassian/default-image:2
+
+pipelines:
+  branches:
+    development:
+      - step:
+          caches:
+            - node
+          script:
+            - npm install -g surge
+            - npm install
+            - CI=false npm run build
+            - surge build stage-avrora.surge.sh

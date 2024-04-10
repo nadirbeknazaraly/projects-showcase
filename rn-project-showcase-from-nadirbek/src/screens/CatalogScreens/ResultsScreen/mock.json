@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Джинсы Liberica Typica",
+    "price": "12600",
+    "old_price": "12700",
+    "sizes": [{
+      "id": "1",
+      "size": "56"
+    }, {
+      "id": "2",
+      "size": "58"
+    }, {
+      "id": "3",
+      "size": "60"
+    }],
+    "photos": [{
+      "thumb": "https://a.lmcdn.ru/img600x866/R/T/RTLACE357101_18898603_1_v1_2x.jpg",
+      "original": "https://a.lmcdn.ru/img600x866/R/T/RTLACE357101_18898603_1_v1_2x.jpg",
+      "small_thumb": "https://a.lmcdn.ru/img600x866/R/T/RTLACE357101_18898603_1_v1_2x.jpg"
+    }],
+    "current_color": {
+      "id": "1",
+      "color": "#E0998F"
+    },
+    "colors": [
+      {
+        "id": "1",
+        "color": "#E0998F"
+      },
+      {
+        "id": "2",
+        "color": "#39D5DF"
+      }
+    ],
+    "description": null,
+    "article": null,
+    "season": null,
+    "label": [
+      {
+        "id": 2,
+        "text": "Распродажа",
+        "color": "#FF6565"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Джинсы Liberica Typica",
+    "price": "12600",
+    "old_price": "12700",
+    "sizes": [{
+      "id": "1",
+      "size": "56"
+    }, {
+      "id": "2",
+      "size": "58"
+    }, {
+      "id": "3",
+      "size": "60"
+    }],
+    "photos": [{
+      "thumb": "https://a.lmcdn.ru/img600x866/R/T/RTLACE357101_18898603_1_v1_2x.jpg",
+      "original": "https://a.lmcdn.ru/img600x866/R/T/RTLACE357101_18898603_1_v1_2x.jpg",
+      "small_thumb": "https://a.lmcdn.ru/img600x866/R/T/RTLACE357101_18898603_1_v1_2x.jpg"
+    }],
+    "current_color": {
+      "id": "1",
+      "color": "#E0998F"
+    },
+    "colors": [
+      {
+        "id": "1",
+        "color": "#E0998F"
+      },
+      {
+        "id": "2",
+        "color": "#39D5DF"
+      }
+    ],
+    "description": null,
+    "article": null,
+    "season": null,
+    "label": [
+      {
+        "id": 2,
+        "text": "Распродажа",
+        "color": "#FF6565"
+      }
+    ]
+  }
+]

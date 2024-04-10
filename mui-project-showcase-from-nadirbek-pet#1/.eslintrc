@@ -1,0 +1,105 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "space-before-function-paren": [
+      "error",
+      "always"
+    ],
+    "react/jsx-filename-extension": [1, {
+      "extensions": [
+        ".js"
+      ]
+    }],
+    "react/prop-types": 2,
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-sort-props": [1, {
+      "callbacksLast": false,
+      "shorthandLast": true,
+      "ignoreCase": true,
+      "noSortAlphabetically": false
+    }],
+    "react/jsx-max-props-per-line": [1, {
+      "number": 1,
+      "when": "always"
+    }],
+    "import/order": ["error", {
+      "groups": [
+        [
+          "builtin",
+          "external"
+        ],
+        [
+          "index",
+          "internal",
+          "parent",
+          "sibling"
+        ]
+      ],
+      "newlines-between": "always",
+      "alphabetize": {
+        "order": "desc",
+        "caseInsensitive": true
+      }
+    }],
+    "object-curly-newline": ["error", {
+      "ObjectExpression": {
+        "multiline": true,
+        "minProperties": 3
+      },
+      "ObjectPattern": {
+        "multiline": true,
+        "minProperties": 3
+      },
+      "ImportDeclaration": {
+        "multiline": true,
+        "minProperties": 2
+      },
+      "ExportDeclaration": {
+        "multiline": true,
+        "minProperties": 2
+      }
+    }],
+    "no-multiple-empty-lines": ["error", {
+      "max": 1
+    }]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "src"
+        ],
+        "extensions": [
+          ".js"
+        ]
+      }
+    }
+  }
+}
