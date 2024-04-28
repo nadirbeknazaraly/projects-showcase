@@ -17,11 +17,11 @@ export const SubTitle = styled.p<GenericProps>`
 
     if (variant === VARIANT.WITH_IMAGE) {
       return `
-        font-size: 13px;
+        font-size: 11px;
       `;
     } else {
       return `
-        font-size: 11px;
+        font-size: 13px;
       `;
     }
   }}

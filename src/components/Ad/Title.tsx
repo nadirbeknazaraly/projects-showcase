@@ -16,11 +16,11 @@ export const Title = styled.h1<GenericProps>`
 
     if (variant === VARIANT.WITH_IMAGE) {
       return `
-        font-size: 27px;
+        font-size: 23px;
       `;
     } else {
       return `
-        font-size: 23px;
+        font-size: 27px;
       `;
     }
   }}

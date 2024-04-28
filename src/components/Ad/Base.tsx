@@ -14,7 +14,7 @@ export const Base = (props: BaseProps) => {
   return (
     <Container size={size} variant={variant}>
       {size === SIZE.BIG && children}
-      <Wrapper>
+      <Wrapper variant={variant}>
         <Title size={size} variant={variant}>
           Dive into the rainbow
         </Title>
